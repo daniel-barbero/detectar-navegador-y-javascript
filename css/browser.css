@@ -1,0 +1,128 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, code,del, dfn, font, img, ins, kbd, q, s, samp,small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, figure, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;white-space: normal;}
+body {line-height: 1;} ol, ul {list-style: none;}
+table {border-collapse: collapse; border-spacing: 0;}caption, th, td {text-align: left;font-weight: normal;}
+a {text-decoration: none;color:#252d44;}
+/* END RESET    */
+
+
+/* COMUN CSS */
+.red {color:a7817f;}
+.blue{color:#006;}
+.sprite{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:url("img/sprite.png") no-repeat;
+	vertical-align: bottom;
+	}
+	
+.hide_text{
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+
+html, body, div#fondo {
+	width:100%;height:100%;
+	overflow:hidden;
+	position:absolute;
+	-webkit-user-select:none;
+	-moz-user-select:none;	
+	}
+
+
+div#conteiner, div#loading{
+	position:absolute;
+	width:100%;height:100%;
+}
+
+div#margen{
+	position:absolute;
+	width:100%;height:100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border:15px solid white;
+	}
+
+
+/* Estilo de browser.php*/
+p, a{
+	font-family: "Book Antiqua", Palatino, serif;
+	text-shadow: 1px 1px 2px #E9E9E9;
+	}
+
+p.error{
+	width:700px;
+	margin:60px auto 0px;
+	border:1px solid #999;
+	padding:15px;
+	background-color: #f1f1f1;
+	text-align:justify;
+	line-height:26px;
+	color:#7e4340;
+}
+
+p#html5{
+	height:160px;
+	}
+p#html5::before{
+	content: url("img/logos.png");
+	display:block;
+	margin-left:300px;
+}
+
+p#verificacion{
+	height:140px;
+	}
+
+span.ok{
+	 background-position:-330px -120px;
+	 margin-left:10px;
+	 }
+span.ko{
+	 background-position:-330px -600px;
+	 margin-left:10px;
+	 }
+span.Chrome{
+	 background-position:-360px -120px;	 
+	}
+span.Firefox{
+	 background-position:-540px -270px;	 
+	}
+span.MSIE{
+	 background-position:-390px -360px;	 
+	}
+span.Opera{
+	 background-position:-300px -420px;	 
+	}
+span.Safari{
+	 background-position:-660px -420px;	 
+	}
+span.Netscape{
+	background-position:-360px -600px;	 
+	}
+span.Maxthon{
+	background-position:-390px -600px;	 
+	}
+
+span#javascript{
+	margin-left:10px;
+	}
+	
+div.button_continuar{
+	display:block;
+	width:230px;
+	height:10px;
+	padding:5px;
+	margin:25px auto 0px;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	background-color:#eee;
+	border:1px solid grey;
+	box-shadow:1px 1px 3px #999;
+	border-radius: 10px;
+	}
